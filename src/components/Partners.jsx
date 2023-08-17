@@ -5,7 +5,6 @@ import microsoft from "../assets/microsoft.svg";
 
 import visa from "../assets/visa.svg";
 import master from "../assets/masrerpass.svg";
-
 export default function Partners() {
   return (
     <>

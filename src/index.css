@@ -297,4 +297,47 @@ body {
   .navigation-bar {
     margin: 20px;
   }
+
+  .span-item {
+    margin: 40px;
+  }
+
+  .span-item span {
+    font-size: 1.2rem;
+  }
+
+  .partner-item-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .partner-item-img img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .feature-item-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 11px;
+  }
+
+  .feature-item {
+    width: 250px;
+    min-height: 150px;
+    max-height: 150px;
+    margin: 30px;
+    text-align: left;
+  }
+
+  .features-text h1 {
+    font-size: 2.5rem;
+  }
 }

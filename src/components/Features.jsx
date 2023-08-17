@@ -14,7 +14,7 @@ import { NavLink } from "react-router-dom";
 export default function Features() {
   return (
     <>
-      <div className="features">
+      <div className="features desk-padding">
         <div className="features-text">
           <div className="span-item">
             <span>features</span>
