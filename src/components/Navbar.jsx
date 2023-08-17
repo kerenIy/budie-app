@@ -32,7 +32,9 @@ export default function Navbar() {
           <NavLink to="/">About us</NavLink>
           <NavLink to="/">Contact</NavLink>
 
-          <button className="btn">Try it? &rarr;</button>
+          <div>
+            <button className="btn">Try it? &rarr;</button>
+          </div>
         </div>
       </div>
     </>
