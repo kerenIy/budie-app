@@ -6,7 +6,7 @@ import heroImg from "../assets/head-img.png";
 export default function Hero() {
   return (
     <>
-      <div className="hero-section">
+      <div className="hero-section desk-padding">
         <div className="hero-text">
           <span className="small-header">
             No 1 finance app on the App store
@@ -16,8 +16,9 @@ export default function Hero() {
             <span className="logo">Budie &trade;</span>
           </h2>
           <p>
-            With Budie you can manage your personal finances, make budgets,
-            track your expenses, and so much more...
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aspernatur, laborum tempora! Quod mollitia deleniti neque
+            voluptatum. Obcaecati cumque nam iure saepe.
           </p>
 
           <NavLink to="#">Try it now &rarr;</NavLink>

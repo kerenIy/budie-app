@@ -4,6 +4,13 @@ body {
   font-family: "Bricolage Grotesque", sans-serif;
   margin: 0;
 }
+*::-webkit-scrollbar {
+  width: 9px;
+  background-color: beige;
+}
+*::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(#e966a0, #9575de);
+}
 
 .logo {
   background: -webkit-linear-gradient(#e966a0, #9575de);
@@ -66,7 +73,7 @@ body {
   border-radius: 15px;
   text-transform: uppercase;
   font-size: 0.8rem;
-  padding: 6px;
+  padding: 10px 9px;
   margin: 15px 0;
 }
 .hero-text h2 {
@@ -251,5 +258,43 @@ body {
     border-radius: 5px;
     padding: 6px;
     color: #fff;
+  }
+
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero-image img {
+    width: 470px;
+    height: 450px;
+  }
+
+  .small-header {
+    font-size: 1rem;
+  }
+
+  .hero-text h2 {
+    font-size: 3rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+    width: 550px;
+    margin-bottom: 30px;
+  }
+
+  .hero-text a {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  .desk-padding {
+    margin: 50px 70px;
+  }
+
+  .navigation-bar {
+    margin: 20px;
   }
 }
