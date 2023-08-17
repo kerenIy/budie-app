@@ -246,7 +246,7 @@ body {
     margin: 4px 35px;
     font-size: 1.15rem;
     text-decoration: none;
-    border: 1px solid #fff;
+    border: 1px solid white;
     background: linear-gradient(#e966a0, #9575de);
     border-radius: 5px;
     padding: 6px;
