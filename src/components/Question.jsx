@@ -17,7 +17,7 @@ export default function Question(props) {
   return (
     <>
       <div className="question-box">
-        <div className="question-header">
+        <div className="question-header" onClick={changeToggle}>
           <div>
             <span>{props.number}</span>
             <h2>{props.question}</h2>
