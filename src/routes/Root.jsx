@@ -6,6 +6,7 @@ import Features from "../components/Features";
 import Partners from "../components/Partners";
 import Why from "../components/Why";
 import Footer from "../components/Footer";
+import FAQs from "../components/FAQs";
 
 export default function Root() {
   return (
@@ -15,6 +16,7 @@ export default function Root() {
       <Partners />
       <Features />
       <Why />
+      <FAQs />
       <Footer />
     </>
   );

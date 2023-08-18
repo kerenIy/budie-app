@@ -224,6 +224,45 @@ body {
   color: #fff;
 }
 
+.faq-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.question-box {
+  margin: 30px;
+  border-bottom: 2px solid #9575de;
+}
+
+.question-box span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.question-box h2 {
+  display: inline;
+  font-size: 0.95rem;
+  margin-left: 5px;
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.question-box p {
+  font-size: 0.8rem;
+  color: gray;
+  font-weight: 300;
+}
+
+.question-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question-header button {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
 @media screen and (min-width: 576px) {
   .navigation-bar {
     display: flex;
@@ -352,12 +391,23 @@ body {
   }
 
   .why-item {
-    width: 300px;
+    width: 400px;
+    box-shadow: rgb(241, 110, 169, 0.1) 0px 8px 24px;
+    padding: 15px;
   }
 
+  .why-items {
+    margin-left: 75px;
+  }
+
+  .why-item span {
+    font-size: 1.2rem;
+  }
   .why-item p {
     display: block;
     margin-left: 10px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    color: gray;
+    font-weight: 300;
   }
 }
