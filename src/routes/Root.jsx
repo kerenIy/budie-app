@@ -6,6 +6,7 @@ import Features from "../components/Features";
 import Partners from "../components/Partners";
 import Why from "../components/Why";
 import Footer from "../components/Footer";
+import Banner from "../components/Banner";
 import FAQs from "../components/FAQs";
 
 export default function Root() {
@@ -16,6 +17,7 @@ export default function Root() {
       <Partners />
       <Features />
       <Why />
+      <Banner />
       <FAQs />
       <Footer />
     </>
