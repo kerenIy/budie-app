@@ -206,8 +206,6 @@ body {
 
 .why-item p {
   display: none;
-  margin-left: 10px;
-  font-size: 0.8rem;
 }
 
 .footer-flex {
@@ -276,7 +274,7 @@ body {
   }
 
   .hero-text h2 {
-    font-size: 3rem;
+    font-size: 3.2rem;
   }
 
   .hero-text p {
@@ -296,10 +294,6 @@ body {
 
   .navigation-bar {
     margin: 20px;
-  }
-
-  .span-item {
-    margin: 40px;
   }
 
   .span-item span {
@@ -334,10 +328,36 @@ body {
     min-height: 150px;
     max-height: 150px;
     margin: 30px;
+  }
+
+  .features-text {
     text-align: left;
   }
 
-  .features-text h1 {
-    font-size: 2.5rem;
+  .features-text h1,
+  .why-text h1 {
+    font-size: 2.8rem;
+  }
+
+  .features-text .span-item {
+    text-align: left;
+  }
+
+  .features-text a {
+    font-size: 1.35rem;
+  }
+
+  .why-text p {
+    font-size: 1.1rem;
+  }
+
+  .why-item {
+    width: 300px;
+  }
+
+  .why-item p {
+    display: block;
+    margin-left: 10px;
+    font-size: 0.8rem;
   }
 }

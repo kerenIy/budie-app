@@ -27,25 +27,25 @@ export default function Why() {
           <WhyItem
             icon={faCaretUp}
             title="Withdraw"
-            text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, harum."
+            text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, harum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, odit."
           />
 
           <WhyItem
             icon={faCaretUp}
             title="Digital Token"
-            text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, harum."
+            text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, harum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, odit."
           />
 
           <WhyItem
             icon={faCaretUp}
             title="History"
-            text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, harum."
+            text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, harum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, odit."
           />
 
           <WhyItem
             icon={faCaretUp}
             title="Investment"
-            text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, harum."
+            text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, harum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, odit."
           />
         </div>
       </div>

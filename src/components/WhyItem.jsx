@@ -4,7 +4,7 @@ import React from "react";
 export default function WhyItem(props) {
   return (
     <>
-      <div className="why-item">
+      <div className="why-item desk-padding">
         <FontAwesomeIcon icon={props.icon} className="why-icon" />
         <span>{props.title}</span>
         <p>{props.text}</p>
