@@ -4,13 +4,13 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 import { useState } from "react";
 export default function Question(props) {
-  const [toggle, setToggle] = useState("hide");
+  const [toggle, setToggle] = useState("faq-hide");
 
   const changeToggle = () => {
-    if (toggle == "hide") {
+    if (toggle == "faq-hide") {
       setToggle("nav-links");
     } else if (toggle == "nav-links") {
-      setToggle("hide");
+      setToggle("faq-hide");
     }
   };
 

@@ -31,6 +31,10 @@ body {
   display: none;
 }
 
+.faq-hide {
+  display: none;
+}
+
 .nav-links {
   display: grid;
   justify-content: center;
@@ -229,7 +233,7 @@ body {
   margin-bottom: 20px;
 }
 .question-box {
-  margin: 30px;
+  margin: 15px 30px;
   border-bottom: 2px solid #9575de;
 }
 
@@ -374,7 +378,8 @@ body {
   }
 
   .features-text h1,
-  .why-text h1 {
+  .why-text h1,
+  .faq-text h1 {
     font-size: 2.8rem;
   }
 
@@ -409,5 +414,31 @@ body {
     font-size: 0.9rem;
     color: gray;
     font-weight: 300;
+  }
+
+  .faq-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .faq-text {
+    text-align: left;
+  }
+
+  .question-box {
+    width: 400px;
+  }
+  .question-box span {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .question-box h2 {
+    font-size: 1.15rem;
+  }
+
+  .question-box p {
+    font-size: 0.9rem;
   }
 }
