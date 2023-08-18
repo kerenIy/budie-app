@@ -13,10 +13,10 @@ export default function Banner() {
         <div>
           <p>
             <span
-              data-purecounter-start="0"
+              data-purecounter-start="20000"
               data-purecounter-end="30000"
               className="purecounter"
-              data-purecounter-duration="1"
+              data-purecounter-duration="1.5"
             >
               00000
             </span>
@@ -30,7 +30,7 @@ export default function Banner() {
               data-purecounter-start="0"
               data-purecounter-end="10"
               className="purecounter"
-              data-purecounter-duration="1"
+              data-purecounter-duration="1.5"
             >
               00
             </span>
@@ -41,12 +41,12 @@ export default function Banner() {
         <div>
           <p>
             <span
-              data-purecounter-start="0"
-              data-purecounter-end="100000"
+              data-purecounter-start="40000"
+              data-purecounter-end="50000"
               className="purecounter"
-              data-purecounter-duration="1"
+              data-purecounter-duration="1.5"
             >
-              000000
+              00000
             </span>
             <p>budgets</p>
           </p>
