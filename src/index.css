@@ -279,6 +279,9 @@ body {
   padding: 6px;
 }
 
+.side-nav-links {
+  display: grid;
+}
 .sidebar-item {
   margin: 47px 5px;
 }
@@ -293,7 +296,7 @@ body {
   color: #9575de;
 }
 
-.s @media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .navigation-bar {
     display: flex;
     justify-content: space-between;
