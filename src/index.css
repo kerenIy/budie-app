@@ -267,7 +267,33 @@ body {
   font-size: 0.9rem;
 }
 
-@media screen and (min-width: 576px) {
+.account-page {
+  margin: 20px;
+}
+.account-img {
+  width: 30px;
+  height: 30px;
+  border: gray;
+  background-color: whitesmoke;
+  border-radius: 100%;
+  padding: 6px;
+}
+
+.sidebar-item {
+  margin: 47px 5px;
+}
+
+.sidebar-item p {
+  display: inline;
+  margin-left: 15px;
+  color: #333;
+}
+
+.sidebar-item span {
+  color: #9575de;
+}
+
+.s @media screen and (min-width: 576px) {
   .navigation-bar {
     display: flex;
     justify-content: space-between;
