@@ -21,7 +21,7 @@ export default function Hero() {
             voluptatum. Obcaecati cumque nam iure saepe.
           </p>
 
-          <NavLink to="#">Try it now &rarr;</NavLink>
+          <NavLink to="/account">Try it now &rarr;</NavLink>
         </div>
 
         <div className="hero-image hide">

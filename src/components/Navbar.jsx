@@ -33,7 +33,9 @@ export default function Navbar() {
           <NavLink to="/">Contact</NavLink>
 
           <div>
-            <button className="btn">Try it? &rarr;</button>
+            <button className="btn">
+              <NavLink to="/account">Try it? &rarr;</NavLink>
+            </button>
           </div>
         </div>
       </div>

@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Root from "../src/routes/Root";
+import Account from "../src/routes/Account";
 /*import Faq from "./routes/Faq";
 import About from "./routes/About";
 import Privacy from "./routes/Privacy";
@@ -16,13 +17,13 @@ const router = createBrowserRouter([
 
     element: <Root />,
   },
-  /*
+
   {
-    path: "/about",
+    path: "/account",
 
-    element: <About />,
+    element: <Account />,
   },
-
+  /*
   {
     path: "/faq",
 
