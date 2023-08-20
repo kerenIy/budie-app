@@ -296,6 +296,22 @@ body {
   color: #9575de;
 }
 
+.card-body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #fff;
+  background: linear-gradient(#e966a0, #9575de);
+  padding: 30px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.card-body h1 {
+  font-size: 1.3rem;
+}
+
 @media screen and (min-width: 576px) {
   .navigation-bar {
     display: flex;
