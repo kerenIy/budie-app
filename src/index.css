@@ -296,6 +296,19 @@ body {
   color: #9575de;
 }
 
+.head-info-display {
+  display: inline;
+}
+
+.head-info-display h1 {
+  font-size: 1.1rem;
+}
+
+.head-info-display p {
+  font-size: 0.9rem;
+  color: gray;
+}
+
 .card-body {
   display: flex;
   justify-content: space-around;
