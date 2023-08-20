@@ -309,6 +309,24 @@ body {
   color: gray;
 }
 
+.main-body {
+  margin: 20px;
+}
+.main-body-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #333;
+  margin: 10px;
+}
+
+.main-body-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .card-body {
   display: flex;
   justify-content: space-around;
