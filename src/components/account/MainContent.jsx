@@ -29,6 +29,13 @@ export default function MainContent() {
           </div>
 
           <div>
+            <MainBodyItem title="To Do" />
+            <div className="main-banner">
+              <p>try me</p>
+            </div>
+          </div>
+
+          <div>
             <MainBodyItem title="Your Badges" />
 
             <div className="badges">
