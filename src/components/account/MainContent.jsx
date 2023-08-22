@@ -4,6 +4,7 @@ import MainBodyItem from "./MainBodyItem";
 import MainBodyCard from "./MainBodyCard";
 import Badge from "./Badge";
 
+import badge from "../../../public/badge.png";
 export default function MainContent() {
   return (
     <>
