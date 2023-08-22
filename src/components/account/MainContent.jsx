@@ -7,11 +7,9 @@ export default function MainContent() {
   return (
     <>
       <div className="main-content">
-        <div className="head-info-display">
-          <h1>Hey, tein</h1>
-          <p>@teinsapanda</p>
+        <div className="main-user-text">
+          <h3>Hey, tein</h3>
         </div>
-
         <div className="card-container">
           <Cards title="Total Balance" amount="N0.00" />
         </div>

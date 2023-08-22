@@ -4,13 +4,16 @@ import SideBarItem from "./SideBarItem";
 import { useState } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
-import { faPiggyBank } from "@fortawesome/free-solid-svg-icons";
-import { faClockRotateLeft } from "@fortawesome/free-solid-svg-icons";
-import { faCreditCard } from "@fortawesome/free-solid-svg-icons";
-import { faUser } from "@fortawesome/free-solid-svg-icons";
-import { faDoorOpen } from "@fortawesome/free-solid-svg-icons";
-import { faGear } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPaperPlane,
+  faGear,
+  faPiggyBank,
+  faClockRotateLeft,
+  faCreditCard,
+  faUser,
+  faDoorOpen,
+  faBars,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function SideBar() {
   const [toggle, setToggle] = useState("faq-hide");
@@ -25,13 +28,14 @@ export default function SideBar() {
   return (
     <>
       <div className="sidebar">
-        <div className="account-details">
-          <img
-            src={accountImg}
-            alt=""
-            className="account-img"
-            onClick={changeToggle}
-          />
+        <div className="side-bar-nav">
+          <button className="btn" onClick={changeToggle}>
+            <FontAwesomeIcon icon={faBars} />
+          </button>
+
+          <div className="account-details">
+            <img src={accountImg} alt="" className="account-img" />
+          </div>
         </div>
 
         <div id="sidebar-container" className={toggle}>

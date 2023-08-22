@@ -283,6 +283,14 @@ body {
   padding: 6px;
 }
 
+.side-bar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.side-bar-nav button {
+  margin-top: 10px;
+}
 .side-nav-links {
   display: grid;
 }
