@@ -1,10 +1,10 @@
 import React from "react";
 
-import amazon from "../assets/amazon.svg";
-import microsoft from "../assets/microsoft.svg";
+import amazon from "../../../public/amazon.svg";
+import microsoft from "../../../public/microsoft.svg";
 
-import visa from "../assets/visa.svg";
-import master from "../assets/masrerpass.svg";
+import visa from "../../../public/visa.svg";
+import master from "../../../public/masrerpass.svg";
 export default function Partners() {
   return (
     <>

@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import heroImg from "../assets/head-img.png";
+import heroImg from "../../../public/head-img.png";
 
 export default function Hero() {
   return (
