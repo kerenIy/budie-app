@@ -2,6 +2,7 @@ import React from "react";
 import Cards from "./Cards";
 import MainBodyItem from "./MainBodyItem";
 import MainBodyCard from "./MainBodyCard";
+import Badge from "./Badge";
 
 export default function MainContent() {
   return (
@@ -15,13 +16,23 @@ export default function MainContent() {
         </div>
 
         <div className="main-body">
-          <MainBodyItem title="Do more with Budie &trade;" />
           <div>
-            <MainBodyCard name="Explore budgets" />
+            <MainBodyItem title="Do more with Budie &trade;" />
+            <div>
+              <MainBodyCard name="Explore budgets" />
+            </div>
+
+            <div>
+              <MainBodyCard name="Explore savings" />
+            </div>
           </div>
 
           <div>
-            <MainBodyCard name="Explore savings" />
+            <MainBodyItem title="Your Badges" />
+
+            <div className="badges">
+              <Badge img={badge} badgeName="Money Stepper" />
+            </div>
           </div>
         </div>
       </div>

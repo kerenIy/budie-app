@@ -342,6 +342,21 @@ body {
   font-weight: 300;
 }
 
+.cash-flow {
+  border: 1px solid rgba(128, 128, 128, 0.486);
+  padding: 2px;
+  border-radius: 6px;
+  margin: 20px;
+}
+
+.cash-flow p {
+  margin-left: 10px;
+}
+.cash-flow span {
+  margin-left: 10px;
+  font-size: 0.9rem;
+}
+
 .main-body-title {
   display: flex;
   justify-content: space-between;
