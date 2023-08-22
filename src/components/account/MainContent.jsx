@@ -32,7 +32,9 @@ export default function MainContent() {
             <MainBodyItem title="Your Badges" />
 
             <div className="badges">
-              <Badge img={badge} badgeName="Money Stepper" />
+              <Badge img={badge} badgeName="Big stepper" />
+              <Badge img={badge} badgeName="Tracker" />
+              <Badge img={badge} badgeName="Rising star" />
             </div>
           </div>
         </div>
