@@ -7,7 +7,6 @@ export default function MainBodyItem(props) {
     <>
       <div className="main-body-title">
         <h2>{props.title}</h2>
-        <FontAwesomeIcon icon={faPlus} />
       </div>
     </>
   );

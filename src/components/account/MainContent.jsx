@@ -15,16 +15,13 @@ export default function MainContent() {
         </div>
 
         <div className="main-body">
+          <MainBodyItem title="Do more with Budie &trade;" />
           <div>
-            <MainBodyItem title="Budgets" />
-            <MainBodyCard name="Monthly budget" />
-            <MainBodyCard name="Monthly budget" />
+            <MainBodyCard name="Explore budgets" />
           </div>
 
           <div>
-            <MainBodyItem title="Savings" />
-            <MainBodyCard name="Regular saving" />
-            <MainBodyCard name="Regular saving" />
+            <MainBodyCard name="Explore savings" />
           </div>
         </div>
       </div>
