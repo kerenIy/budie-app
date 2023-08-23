@@ -31,7 +31,7 @@ export default function MainContent() {
           <div>
             <MainBodyItem title="To Do" />
             <div className="main-banner">
-              <p>try me</p>
+              <h2>Complete your profile setup</h2>
             </div>
           </div>
 
