@@ -5,6 +5,8 @@ import MainBodyCard from "./MainBodyCard";
 import Badge from "./Badge";
 
 import badge from "../../../public/badge.png";
+import { faIdCard } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function MainContent() {
   return (
     <>
@@ -32,6 +34,22 @@ export default function MainContent() {
             <MainBodyItem title="To Do" />
             <div className="main-banner">
               <h2>Complete your profile setup</h2>
+
+              <div>
+                <span>
+                  <FontAwesomeIcon icon={faIdCard} />
+                  <p> Add your National ID</p>
+                </span>
+                <span>
+                  <FontAwesomeIcon icon={faIdCard} />
+                  <p> Add your next of kin</p>
+                </span>
+
+                <span>
+                  <FontAwesomeIcon icon={faIdCard} />
+                  <p> Follow friends & family</p>
+                </span>
+              </div>
             </div>
           </div>
 

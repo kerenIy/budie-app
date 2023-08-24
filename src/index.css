@@ -358,11 +358,24 @@ body {
   border: 1px solid transparent;
   border-radius: 5px;
   margin: 10px 3px;
-  padding: 50px;
+  padding: 25px;
   color: #333;
   background: #e966a186;
 }
 
+.main-banner h2 {
+  font-size: 1.15rem;
+}
+
+.main-banner p {
+  display: inline;
+  margin-left: 2px;
+}
+.main-banner span {
+  display: block;
+  margin: 15px 0;
+  color: #333333bb;
+}
 .card-body {
   display: flex;
   justify-content: space-around;
