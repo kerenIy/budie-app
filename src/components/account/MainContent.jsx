@@ -4,6 +4,9 @@ import MainBodyItem from "./MainBodyItem";
 import MainBodyCard from "./MainBodyCard";
 import Badge from "./Badge";
 
+import Budget from "../../../public/budget.png";
+import Lock from "../../../public/lock.png";
+
 import badge from "../../../public/badge.png";
 import { faIdCard } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -39,11 +42,11 @@ export default function MainContent() {
           <div>
             <MainBodyItem title="Do more with Budie &trade;" />
             <div>
-              <MainBodyCard name="Explore budgets" />
+              <MainBodyCard img={Budget} name="Explore budgets" />
             </div>
 
             <div>
-              <MainBodyCard name="Explore savings" />
+              <MainBodyCard img={Lock} name="Explore savings" />
             </div>
           </div>
 
