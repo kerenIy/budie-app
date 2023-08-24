@@ -332,7 +332,7 @@ body {
   border: 1px solid transparent;
   border-radius: 10px;
   margin: 10px 3px;
-  padding: 5px;
+  padding: 13px;
   color: #fff;
   background: #9575dec4;
 }
@@ -340,6 +340,11 @@ body {
 .main-body-card p {
   font-size: 0.98rem;
   font-weight: 300;
+}
+
+.main-body-card img {
+  width: 45px;
+  height: 45px;
 }
 
 .main-body-title {

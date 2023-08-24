@@ -6,7 +6,7 @@ export default function MainBodyCard(props) {
   return (
     <>
       <div className="main-body-card">
-        <img src={props.img} alt="" />
+        <img src={props.img} alt="" className="body-card-img" />
         <p>{props.name}</p>
         <FontAwesomeIcon icon={faAngleRight} />
       </div>
