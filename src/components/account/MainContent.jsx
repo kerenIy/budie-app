@@ -20,18 +20,7 @@ export default function MainContent() {
 
         <div className="main-body">
           <div>
-            <MainBodyItem title="Do more with Budie &trade;" />
-            <div>
-              <MainBodyCard name="Explore budgets" />
-            </div>
-
-            <div>
-              <MainBodyCard name="Explore savings" />
-            </div>
-          </div>
-
-          <div>
-            <MainBodyItem title="To Do" />
+            <MainBodyItem title="To-Do" />
             <div className="main-banner">
               <h2>Complete your profile setup</h2>
 
@@ -42,14 +31,19 @@ export default function MainContent() {
                 </span>
                 <span>
                   <FontAwesomeIcon icon={faIdCard} />
-                  <p> Add your next of kin</p>
-                </span>
-
-                <span>
-                  <FontAwesomeIcon icon={faIdCard} />
                   <p> Follow friends & family</p>
                 </span>
               </div>
+            </div>
+          </div>
+          <div>
+            <MainBodyItem title="Do more with Budie &trade;" />
+            <div>
+              <MainBodyCard name="Explore budgets" />
+            </div>
+
+            <div>
+              <MainBodyCard name="Explore savings" />
             </div>
           </div>
 

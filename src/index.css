@@ -350,8 +350,9 @@ body {
 
 .main-body-title h2 {
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
   margin: 30px 10px;
+  color: #333333bb;
 }
 
 .main-banner {
@@ -369,7 +370,7 @@ body {
 
 .main-banner p {
   display: inline;
-  margin-left: 2px;
+  margin-left: 3px;
 }
 .main-banner span {
   display: block;
