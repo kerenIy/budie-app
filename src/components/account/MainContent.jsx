@@ -11,7 +11,6 @@ import ID from "../../../public/id-icon.png";
 import badge from "../../../public/badge.png";
 import { faIdCard } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Banner from "./Banner";
 export default function MainContent() {
   return (
     <>
@@ -26,28 +25,11 @@ export default function MainContent() {
         <div className="main-body">
           <div>
             <MainBodyItem title="To-Do" />
-            <div className="main-banner">
-              <Banner
-                img={ID}
-                title="Complete profile Setup"
-                content="Complete profile to enjoy all Budie features!"
-              />
-              <div>
-                <img src={ID} alt="" />
-                <h2>Complete your profile setup</h2>
-              </div>
-
-              <div>
-                <span>
-                  <FontAwesomeIcon icon={faIdCard} />
-                  <p> Add your National ID</p>
-                </span>
-                <span>
-                  <FontAwesomeIcon icon={faIdCard} />
-                  <p> Follow friends & family</p>
-                </span>
-              </div>
-            </div>
+            <Banner
+              icon={ID}
+              title="Complete profile Setup"
+              content="Complete profile to enjoy all Budie features!"
+            />
           </div>
           <div>
             <MainBodyItem title="Do more with Budie &trade;" />
