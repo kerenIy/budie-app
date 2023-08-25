@@ -59,8 +59,8 @@ export default function MainContent() {
 
             <div className="badges">
               <Badge img={badge} badgeName="Big stepper" />
-              <Badge img={badge} badgeName="Tracker" />
-              <Badge img={badge} badgeName="Rising star" />
+              <Badge img={Budget} badgeName="Tracker" />
+              <Badge img={Lock} badgeName="Rising star" />
             </div>
           </div>
         </div>
