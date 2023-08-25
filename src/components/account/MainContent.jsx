@@ -1,8 +1,8 @@
-import React from "react";
 import Cards from "./Cards";
 import MainBodyItem from "./MainBodyItem";
 import MainBodyCard from "./MainBodyCard";
 import Badge from "./Badge";
+import Banner from "./Banner";
 
 import Budget from "../../../public/budget.png";
 import Lock from "../../../public/lock.png";
@@ -11,6 +11,7 @@ import ID from "../../../public/id-icon.png";
 import badge from "../../../public/badge.png";
 import { faIdCard } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Banner from "./Banner";
 export default function MainContent() {
   return (
     <>
@@ -26,6 +27,11 @@ export default function MainContent() {
           <div>
             <MainBodyItem title="To-Do" />
             <div className="main-banner">
+              <Banner
+                img={ID}
+                title="Complete profile Setup"
+                content="Complete profile to enjoy all Budie features!"
+              />
               <div>
                 <img src={ID} alt="" />
                 <h2>Complete your profile setup</h2>
