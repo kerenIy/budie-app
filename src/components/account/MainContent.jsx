@@ -26,8 +26,10 @@ export default function MainContent() {
           <div>
             <MainBodyItem title="To-Do" />
             <div className="main-banner">
-              <img src={ID} alt="" className="account-img" />
-              <h2>Complete your profile setup</h2>
+              <div>
+                <img src={ID} alt="" />
+                <h2>Complete your profile setup</h2>
+              </div>
 
               <div>
                 <span>

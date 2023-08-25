@@ -342,7 +342,7 @@ body {
   font-weight: 300;
 }
 
-.account-img {
+.main-body-card img {
   width: 45px;
   height: 45px;
 }
@@ -370,7 +370,9 @@ body {
 }
 
 .main-banner h2 {
-  font-size: 1.15rem;
+  font-size: 1.3rem;
+  display: inline;
+  margin-left: 10px;
 }
 
 .main-banner p {
@@ -381,6 +383,11 @@ body {
   display: block;
   margin: 15px 0;
   color: #333333bb;
+}
+
+.main-banner img {
+  width: 30px;
+  height: 30px;
 }
 .card-body {
   display: flex;
