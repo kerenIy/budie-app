@@ -6,6 +6,7 @@ import Badge from "./Badge";
 
 import Budget from "../../../public/budget.png";
 import Lock from "../../../public/lock.png";
+import ID from "../../../public/id-icon.png";
 
 import badge from "../../../public/badge.png";
 import { faIdCard } from "@fortawesome/free-solid-svg-icons";
@@ -25,6 +26,7 @@ export default function MainContent() {
           <div>
             <MainBodyItem title="To-Do" />
             <div className="main-banner">
+              <img src={ID} alt="" className="account-img" />
               <h2>Complete your profile setup</h2>
 
               <div>
