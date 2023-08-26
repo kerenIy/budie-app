@@ -370,19 +370,14 @@ body {
 }
 
 .main-banner h2 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   display: inline;
   margin-left: 10px;
 }
 
 .main-banner p {
-  display: inline;
   margin-left: 3px;
-}
-.main-banner span {
-  display: block;
-  margin: 15px 0;
-  color: #333333bb;
+  font-size: 0.8rem;
 }
 
 .main-banner img {
