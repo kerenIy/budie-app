@@ -9,8 +9,7 @@ import Lock from "../../../public/lock.png";
 import ID from "../../../public/id-icon.png";
 
 import badge from "../../../public/badge.png";
-import { faIdCard } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import money from "../../../public/money.png";
 export default function MainContent() {
   return (
     <>
@@ -26,9 +25,9 @@ export default function MainContent() {
           <div>
             <MainBodyItem title="To-Do" />
             <Banner
-              icon={ID}
+              icon={money}
               title="The 50/30/20 rule"
-              content="Learn the basics of budgeting with the Budie blog"
+              content="Learn the basics of budgeting with our blog"
             />
           </div>
           <div>
