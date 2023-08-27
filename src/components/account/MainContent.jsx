@@ -27,8 +27,8 @@ export default function MainContent() {
             <MainBodyItem title="To-Do" />
             <Banner
               icon={ID}
-              title="Complete profile Setup"
-              content="Complete profile to enjoy all Budie features!"
+              title="The 50/30/20 rule"
+              content="Learn the basics of budgeting with the Budie blog"
             />
           </div>
           <div>

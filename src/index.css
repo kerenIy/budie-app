@@ -364,15 +364,14 @@ body {
   border: 1px solid transparent;
   border-radius: 5px;
   margin: 10px 3px;
-  padding: 25px;
+  padding: 10px;
   color: #333;
   background: #e966a186;
 }
 
 .main-banner h2 {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   display: inline;
-  margin-left: 10px;
 }
 
 .main-banner p {
