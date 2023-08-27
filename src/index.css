@@ -383,6 +383,12 @@ body {
   width: 30px;
   height: 30px;
 }
+
+.main-banner a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+}
 .card-body {
   display: flex;
   justify-content: space-around;
