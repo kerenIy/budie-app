@@ -23,7 +23,7 @@ export default function MainContent() {
 
         <div className="main-body">
           <div>
-            <MainBodyItem title="To-Do" />
+            <MainBodyItem title="Budie Blog" />
             <Banner
               icon={money}
               title="The 50/30/20 rule"
@@ -49,6 +49,15 @@ export default function MainContent() {
               <Badge img={Budget} badgeName="Tracker" />
               <Badge img={Lock} badgeName="Rising star" />
             </div>
+          </div>
+
+          <div>
+            <MainBodyItem title="Next Steps" />
+            <Banner
+              icon={ID}
+              title="Invite family & friends"
+              content="Make N1000 on every referral. Get your referral code."
+            />
           </div>
         </div>
       </div>
