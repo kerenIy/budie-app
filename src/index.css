@@ -410,6 +410,10 @@ body {
   font-size: 1.3rem;
 }
 
+.card-extra {
+  display: none;
+}
+
 .badges {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

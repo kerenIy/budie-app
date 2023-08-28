@@ -1,4 +1,4 @@
-import Cards from "./CardItem";
+import Cards from "./Cards";
 import MainBodyItem from "./MainBodyItem";
 import MainBodyCard from "./MainBodyCard";
 import Badge from "./Badge";
@@ -18,7 +18,7 @@ export default function MainContent() {
           <h3>Hey, tein</h3>
         </div>
         <div className="card-container">
-          <Cards title="Total Balance" amount="N0.00" />
+          <Cards />
         </div>
 
         <div className="main-body">
