@@ -39,6 +39,10 @@ export default function MainContent() {
             <div>
               <MainBodyCard img={Lock} name="Explore savings" />
             </div>
+
+            <div>
+              <MainBodyCard img={money} name="Explore investments" />
+            </div>
           </div>
 
           <div>
