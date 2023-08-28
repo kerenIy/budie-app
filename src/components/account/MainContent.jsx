@@ -1,4 +1,4 @@
-import Cards from "./Cards";
+import Cards from "./CardItem";
 import MainBodyItem from "./MainBodyItem";
 import MainBodyCard from "./MainBodyCard";
 import Badge from "./Badge";
@@ -31,7 +31,7 @@ export default function MainContent() {
             />
           </div>
           <div>
-            <MainBodyItem title="Do more with Budie &trade;" />
+            <MainBodyItem title="Grow Your Wealth" />
             <div>
               <MainBodyCard img={Budget} name="Explore budgets" />
             </div>
