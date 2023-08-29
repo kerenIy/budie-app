@@ -1,7 +1,17 @@
 import React from "react";
 import CardItem from "./CardItem";
+import { useState } from "react";
 
 export default function Cards() {
+  const [toggle, setToggle] = useState("card=extra");
+
+  const changeCardDisplay = () => {
+    if (toggle == "card-extra") {
+      setToggle("card");
+    } else if (toggle == "card") {
+      setToggle("card-extra");
+    }
+  };
   return (
     <>
       <div className="card-group">
