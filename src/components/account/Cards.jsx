@@ -4,7 +4,10 @@ import { useState } from "react";
 
 export default function Cards() {
   const [toggle, setToggle] = useState("card=extra");
-
+  /*
+add usestate & useeffect to add functionality on click,
+when the button is clicked, check if the currently button on display, then display either the previous or the next card
+ */
   const changeCardDisplay = () => {
     if (toggle == "card-extra") {
       setToggle("card");
