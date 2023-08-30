@@ -17,7 +17,7 @@ when the button is clicked, check if the currently button on display, then displ
     }
   };
 
-  useEffect = () => {
+  /*useEffect = () => {
     let array = [
       {
         id: 1,
@@ -37,7 +37,7 @@ when the button is clicked, check if the currently button on display, then displ
         amount: "0.00",
       },
     ];
-  };
+  };*/
 
   return (
     <>
