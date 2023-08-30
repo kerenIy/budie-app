@@ -1,9 +1,10 @@
 import React from "react";
 import CardItem from "./CardItem";
 import { useState } from "react";
+import { useEffect } from "react";
 
 export default function Cards() {
-  const [toggle, setToggle] = useState("card=extra");
+  const [toggle, setToggle] = useState("card-extra");
   /*
 add usestate & useeffect to add functionality on click,
 when the button is clicked, check if the currently button on display, then display either the previous or the next card
@@ -15,6 +16,29 @@ when the button is clicked, check if the currently button on display, then displ
       setToggle("card-extra");
     }
   };
+
+  useEffect = () => {
+    let array = [
+      {
+        id: 1,
+        title: "Total Balance",
+        amount: "0.00",
+      },
+
+      {
+        id: 1,
+        title: "Total Balance",
+        amount: "0.00",
+      },
+
+      {
+        id: 1,
+        title: "Total Balance",
+        amount: "0.00",
+      },
+    ];
+  };
+
   return (
     <>
       <div className="card-group">
