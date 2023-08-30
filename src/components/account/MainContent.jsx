@@ -24,11 +24,6 @@ export default function MainContent() {
           <Cards />
         </div>
 
-        <div className="top-up">
-          <p>Top Up</p>
-          <FontAwesomeIcon icon={faPlus} />
-        </div>
-
         <div className="main-body">
           <div>
             <MainBodyItem title="Budie Blog" />
