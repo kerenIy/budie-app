@@ -450,6 +450,31 @@ body {
   margin-right: 5px;
 }
 
+.error-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.error-display img {
+  width: 275px;
+  height: 275px;
+}
+
+.error-display p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.error-display a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1rem;
+}
+
 @media screen and (min-width: 576px) {
   .navigation-bar {
     display: flex;
