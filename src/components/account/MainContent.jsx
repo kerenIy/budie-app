@@ -10,6 +10,9 @@ import ID from "../../../public/id-icon.png";
 
 import badge from "../../../public/badge.png";
 import money from "../../../public/money.png";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
 export default function MainContent() {
   return (
     <>
@@ -19,6 +22,11 @@ export default function MainContent() {
         </div>
         <div className="card-container">
           <Cards />
+        </div>
+
+        <div className="top-up">
+          <p>Top Up</p>
+          <FontAwesomeIcon icon={faPlus} />
         </div>
 
         <div className="main-body">

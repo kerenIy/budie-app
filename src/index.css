@@ -425,6 +425,20 @@ body {
   font-size: 0.8rem;
 }
 
+.top-up {
+  background-color: #333;
+  color: #fff;
+  font-size: 1.2rem;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+.top-up p {
+  display: inline;
+  margin-right: 5px;
+}
+
 @media screen and (min-width: 576px) {
   .navigation-bar {
     display: flex;
