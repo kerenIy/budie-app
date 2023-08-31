@@ -63,6 +63,7 @@ body {
   font-family: "Bricolage Grotesque", sans-serif;
   font-size: 1.3rem;
   margin-bottom: 20px;
+  color: #333;
 }
 
 .hero-section,
@@ -86,10 +87,10 @@ body {
   color: #333;
 }
 
-.hero-text,
+.hero-text p,
 .features-text p,
 .why-text p {
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   color: gray;
   font-weight: 200;
   margin-bottom: 40px;
@@ -506,6 +507,10 @@ body {
     background: linear-gradient(#e966a0, #9575de);
     border-radius: 5px;
     padding: 6px;
+    color: #fff;
+  }
+
+  #links button a {
     color: #fff;
   }
 
