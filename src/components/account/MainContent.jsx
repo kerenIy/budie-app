@@ -10,9 +10,6 @@ import ID from "../../../public/id-icon.png";
 
 import badge from "../../../public/badge.png";
 import money from "../../../public/money.png";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlus } from "@fortawesome/free-solid-svg-icons";
 export default function MainContent() {
   return (
     <>

@@ -367,7 +367,7 @@ body {
   align-items: center;
   border: 1px solid transparent;
   border-radius: 5px;
-  margin: 10px 3px;
+  margin: 10px 0;
   padding: 14px;
   color: #fff;
   background: #333;
@@ -408,16 +408,29 @@ body {
   align-items: center;
   text-align: center;
   border: 1px solid #fff;
-  background: linear-gradient(#e966a0, #9575de);
-  padding: 30px;
+  background: #e966a1cc;
+  padding: 25px 90px;
   color: #fff;
   border-radius: 10px;
 }
 
 .card-body h1 {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.card-body p {
   font-size: 1.3rem;
+  font-weight: 400;
 }
 
+.card-body button {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: #e966a0;
+  padding: 5px;
+  color: #fff;
+  width: 150px;
+}
 .card-extra {
   display: none;
 }
@@ -430,7 +443,7 @@ body {
   text-align: center;
 }
 .badge-item p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .top-up {

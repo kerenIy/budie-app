@@ -3,6 +3,9 @@ import CardItem from "./CardItem";
 import { useState } from "react";
 import { useEffect } from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+
 export default function Cards() {
   const [toggle, setToggle] = useState("card-extra");
   /*
@@ -43,13 +46,15 @@ when the button is clicked, check if the currently button on display, then displ
     <>
       <div className="card-group">
         <div>
-          <CardItem title="Total Balance" amount="N0.00" />
-        </div>
-        <div className="card-extra">
-          <CardItem title="Total Savings" amount="N0.00" />
-        </div>
-        <div className="card-extra">
-          <CardItem title="Total Investments" amount="N0.00" />
+          <div>
+            <CardItem title="Total Balance" amount="N20,000.0" />
+          </div>
+          <div className="card-extra">
+            <CardItem title="Total Savings" amount="N0.00" />
+          </div>
+          <div className="card-extra">
+            <CardItem title="Total Investments" amount="N0.00" />
+          </div>
         </div>
       </div>
     </>
