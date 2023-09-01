@@ -322,6 +322,10 @@ body {
   color: gray;
 }
 
+.main-content {
+  margin: 0;
+}
+
 .main-body {
   margin: 25px 10px;
 }
