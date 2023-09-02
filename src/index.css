@@ -493,6 +493,19 @@ body {
   font-size: 1.1rem;
 }
 
+.bottom-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+
+.bottom-buttons {
+  color: gray;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
 @media screen and (min-width: 576px) {
   .navigation-bar {
     display: flex;

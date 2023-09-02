@@ -11,6 +11,8 @@ import Privacy from "./routes/Privacy";
 
 */
 import "./index.css";
+import BottomNavigation from "reactjs-bottom-navigation";
+import "reactjs-bottom-navigation/dist/index.css";
 
 const router = createBrowserRouter([
   {
