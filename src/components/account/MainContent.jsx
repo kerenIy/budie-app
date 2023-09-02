@@ -10,6 +10,9 @@ import ID from "../../../public/id-icon.png";
 
 import badge from "../../../public/badge.png";
 import money from "../../../public/money.png";
+import points from "../../../public/hundred-points.png";
+
+import clock from "../../../public/mantelpiece-clock.png";
 export default function MainContent() {
   return (
     <>
@@ -50,7 +53,9 @@ export default function MainContent() {
 
             <div className="badges">
               <Badge img={badge} badgeName="Big stepper" />
-              <Badge img={Budget} badgeName="Tracker" />
+              <Badge img={clock} badgeName="Tracker" />
+              <Badge img={Budget} badgeName="Budgetss" />
+              <Badge img={points} badgeName="Savings" />
               <Badge img={Lock} badgeName="Rising star" />
             </div>
           </div>
