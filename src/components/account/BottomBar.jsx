@@ -4,7 +4,7 @@ import Buttons from "./Buttons";
 import {
   faHome,
   faPiggyBank,
-  faMoneyBill,
+  faClockRotateLeft,
   faBlog,
   faWallet,
 } from "@fortawesome/free-solid-svg-icons";
@@ -17,9 +17,7 @@ export default function BottomBar() {
 
         <Buttons icon={faPiggyBank} text="Save" />
 
-        <Buttons icon={faMoneyBill} text="Invest" />
-
-        <Buttons icon={faBlog} text="Blog" />
+        <Buttons icon={faClockRotateLeft} text="Track" />
 
         <Buttons icon={faWallet} text="Wallet" />
       </div>
