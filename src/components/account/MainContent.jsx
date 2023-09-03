@@ -67,6 +67,9 @@ export default function MainContent() {
               title="Invite family & friends"
               content="Make N1000 on every referral. Get your referral code."
             />
+            <br />
+            <br />
+            <br />
           </div>
         </div>
       </div>

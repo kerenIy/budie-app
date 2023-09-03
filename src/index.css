@@ -510,13 +510,16 @@ body::-webkit-scrollbar,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
 }
 
 .bottom-buttons {
   color: gray;
   font-size: 0.8rem;
   text-align: center;
+  margin: 10px 17px;
 }
 
 @media screen and (min-width: 576px) {
@@ -709,7 +712,7 @@ body::-webkit-scrollbar,
   }
 
   .banner div {
-    margin: 30px 125px;
+    margin: 50px 125px;
   }
 
   .banner span {
