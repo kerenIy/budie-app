@@ -371,10 +371,11 @@ body {
   align-items: center;
   border: 1px solid transparent;
   border-radius: 5px;
-  margin: 10px 0;
+  margin: 15px 0;
   padding: 14px;
   color: #fff;
   background: #333;
+  margin-bottom: 20px;
   /*color: #333;
   background: #e966a186;*/
 }
@@ -712,7 +713,7 @@ body::-webkit-scrollbar,
   }
 
   .banner div {
-    margin: 50px 125px;
+    margin: 30px 125px;
   }
 
   .banner span {
